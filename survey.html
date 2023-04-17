@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey</title>
+    <link rel="stylesheet" href="/survey.css" />
+  </head>
+  <body>
+    <div class="survey-container">
+      <div class="survey">
+        <label for="name">Name</label>
+        <input
+          required
+          type="text"
+          id="name"
+          class="survey-info"
+          placeholder="Input your name" />
+      </div>
+      <div class="survey">
+        <label for="surname">Surname</label>
+        <input
+          type="text"
+          id="surname"
+          class="survey-info"
+          placeholder="Input your surname" />
+      </div>
+      <div class="survey">
+        <label for="password">Password</label>
+        <input
+          required
+          class="survey-info"
+          type="password"
+          id="password"
+          placeholder="Type password" />
+        <label for="passRetype">Repeat Password</label>
+        <input
+          required
+          class="survey-info"
+          type="password"
+          id="passRetype"
+          placeholder="Repeat Password" />
+      </div>
+      <div class="survey">
+        <label for="email">Email</label>
+        <input
+          class="survey-info"
+          type="email"
+          id="email"
+          placeholder="Email" />
+      </div>
+      <div class="survey">
+        <label for="birthday">Date of birth</label>
+        <input
+          class="survey-info"
+          type="date"
+          id="birthday"
+          placeholder="Birthday" />
+      </div>
+      <div class="survey">
+        <label for="male">Male</label>
+        <input class="survey-gender" type="radio" id="male" />
+        <label for="female">Female</label>
+        <input class="survey-gender" type="radio" id="female" />
+      </div>
+      <button class="regbtn">Register</button>
+      <a class="link" href="/login.html">Go to Log inn</a>
+    </div>
+  </body>
+</html>

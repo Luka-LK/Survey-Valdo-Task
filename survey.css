@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto&display=swap");
 
+/* global styles */
+.container{
+    width: 100%;
+    margin:  auto;
+}
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +12,44 @@
 body {
   font-family: "DM Serif Display", serif;
   background-color: rgb(127, 127, 219);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
+/* header and footer styles */
+.header{
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header, footer{
+  background-color: antiquewhite;
+  width: 100%;
+}
+.logo-img{
+  height: 50px;
+  width: 50px;
+  margin-left: 100px;
+}
+nav{
+  margin-right: 100px;
+  font-weight: bold;
+  font-size: 24px;
+}
+a{
+  text-decoration: none;
+  padding: 0 12px;
+}
+.footer{
+  height: 70px;
+  margin-top: auto;
+  text-align: center;
+}
+footer p{
+  padding: 12px;
+}
+/* registration form styles */
 .survey-container {
   border: 1px solid black;
   width: 400px;
